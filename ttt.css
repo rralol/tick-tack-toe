@@ -1,0 +1,57 @@
+body {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+#announcement {
+    font-size: 35px;
+}
+
+#startmenu {
+    display: flex;
+    height: 70px;
+    width: 345px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.textinput {
+    width: 150px;
+    height: 20px;
+}
+
+.gameboard {
+    display: grid;
+    width:  305px;
+    height: 307px;
+    padding-bottom: 10px;
+    grid-template: repeat(3, 1fr ) / repeat(3, 1fr);
+}
+.boardelement {
+    width: 101px;
+    height: 101px;
+    border: 1px solid black;
+}
+.boxcontent {
+    align-self: center;
+    font-size: 30px;
+    padding-top: 30px;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+}
